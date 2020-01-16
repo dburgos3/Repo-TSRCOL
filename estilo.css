@@ -1,0 +1,101 @@
+/* Estilo h1 */
+h1 {
+  color: black;
+  font-size: 50px;
+}
+/* Estilo special */
+.special {
+  color:blue;
+}
+
+/* Estilo Saldo */
+.saldo{
+  color:green;
+}
+
+/* Estilo de tablas */
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+/* Estilo de espaciado en tablas */
+th, td {
+  padding: 15px;
+}
+
+/* Estilo encuadrar */
+.Encuadrar{
+  border: 1px solid black;
+  padding: 1px;
+  font-style: italic;
+  background-color: grey;
+  border-radius: 4px;
+}
+
+/* Margenes al rededor de un elemento con margin, border, padding, width y height*/
+p {
+  margin: 5px 6px 6px 5px;
+  border: 2px solid red;
+  padding: 5px 5px 5px 5px;
+  width: 500px;
+  height: 100px;
+}
+
+/* Color de fondo azul */
+/* p {
+  background-color: green;
+} */
+
+/* Fondo con imagen */
+p {
+  background-image: url('https://atlantis.nyc3.digitaloceanspaces.com/media/legacy/atlantis/Things_To_Do/Water_Park/Beaches/Hero/Experiences_Beach.jpg');
+  background-repeat: no-repeat;
+  background-size: 500px 100px;
+}
+
+/* Posicionamiento relative */
+/* p {
+  position: relative;
+  top: 20px;
+  left: 20px;
+} */
+
+/* Posicionamiento absolute */
+/* p {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+} */
+
+/* Posicionamiento fixed */
+div.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 20px;
+}
+
+/* Sombras */
+.sombra {
+  margin: 25px auto;
+  border: 1px solid #ccc;
+  width: 1200px;
+  height: 3000px;
+  box-shadow: 7px 7px 15px #592A08;
+}
+
+/* Sombras en texto */
+.shadow {
+  font-size: 28px;
+  padding: 20px;
+  text-align: center;
+  text-shadow: 2px 2px 2px #2D93B5;
+}
+
+/* Gradiente */
+.gradiente {
+  /* background: linear-gradient(to right, blue 10%, red 20%, yellow, green); */
+/* background: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1)); */
+  background: radial-gradient(circle at right, red, yellow);
+  height: 2950px;
+}

@@ -1,0 +1,213 @@
+  <!DOCTYPE html>
+  <html lang="en" dir="ltr">
+    <head>
+
+      <!-- CSS externo -->
+      <link rel="stylesheet" href="estilo.css">
+
+      <meta charset="utf-8">
+      <!--Nombre del documento -->
+      <title>Página con todos los juguetes</title>
+    </head>
+    <body>
+      <!-- Esstilo cuadro con sombra -->
+      <div class="sombra">
+
+      <!-- Estilo de gradiente -->
+      <div class="gradiente">
+
+      <!-- Tìtulo principal de la página -->
+      <h1>Página con todos los juguetes</h1>
+
+      <br>
+      <h2><div class="shadow">Título con sombra</div></h2>
+
+      <!-- Parrafo en el documento -->
+      <br>
+      <p>Parrafo paliducho</p>
+
+      <!-- Título de segunda categorìa -->
+      <h2>Subsubtitulo</h2>
+
+      <!-- Inserto enlace -->
+      <a href="www.linkedin.com/in/daniel-burgos-IM">Perfil de Linkedin</a>
+
+      <!-- Espacio (enter) -->
+      <br>
+
+      <!-- Insertando imagen -->
+      <img src="Imagenes/Imagen001.jpeg" alt="">
+
+      <!-- Agrupando con div -->
+      <div class="main selection">
+        <!-- Título color Rojo con CSS inline -->
+        <h1 style = "color:red">Título color rojo</h1>
+
+        <!-- Link con css especial -->
+        <p class="special">Parrafo <strong>especial</strong></p>
+      </div>
+
+      <!-- lista ordenada-->
+      <ol>
+        <li>Primer item</li>
+        <li>Segundo item</li>
+        <li>Tercer item</li>
+      </ol>
+
+      <!-- Lista no ordenada -->
+      <ul>
+        <li>Primer item no ordenado</li>
+        <li>Segundo item no ordenado</li>
+        <li>Tercer item no ordenado</li>
+      </ul>
+
+      <!-- Estilos con span -->
+      <p>Su saldo es <span class="saldo">$200000</span></p>
+
+      <!-- Tabla -->
+      <table>
+        <tr>
+          <th>Nombre</th>
+          <th>Apellido</th>
+        </tr>
+        <tr>
+          <td>Daniel</td>
+          <td>Rogger</td>
+        </tr>
+        <tr>
+          <td>Burgos</td>
+          <td>Vásquez</td>
+        </tr>
+      </table>
+
+    <br>
+      <!-- Tabla con celdas que ocupan mas de dos espacios -->
+      <table>
+        <tr>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td colspan="2">Ocupa 2 columnas</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td colspan="3">Ocupa 3 columnas</td>
+        </tr>
+      </table>
+
+      <!-- Formulario -->
+    <h2>Formulario Nombre</h2>
+    <form>
+      <input type="text">
+    </form>
+
+  <br>
+    <!-- Formulario contraseña -->
+    <h2>Formulario Contraseña</h2>
+    <form>
+      <input type="password">
+    </form>
+
+  <br>
+    <!-- Formulario checkbox -->
+    <h2>Checkbox</h2>
+    <form>
+      <input type="checkbox"> Acepto recivir informacion
+    </form>
+
+  <br>
+    <!-- Botón de envío -->
+    <h2>Botón de envío</h2>
+    <form>
+      <input type="submit" value="Enviar">
+    </form>
+
+    <!-- Ensayo parrafo -->
+    <p>El atributo value define el texto del botón.</p>
+    <br>
+    <p>Para utilizar un botón de envío necesitas también definir al menos:</p>
+    <br>
+    <ol>
+      <li>La URL del servidor al que quieres enviar la información
+        en el atributo <span class="Encuadrar">action</span>.</li>
+      <li>Agregar un atributo <span class="Encuadrar">name</span> a todos los campos
+        de entrada que quieres enviar al servidor.</li>
+    </ol>
+    <br>
+    <p>Por ejemplo:</p>
+    <br>
+
+  <!-- Formulario con botón -->
+    <form action="Formulario.html">
+      <div>
+        Nombre: <input type="text" name="Nombre">
+      </div>
+      <br>
+      <div>
+        Mensaje: <input type="text" name="Mensaje">
+      </div>
+      <br>
+      <input type="submit" value="Enviar">
+    </form>
+
+  <br>
+
+  <!-- Labels -->
+  <form>
+    <label for="Nombre">Nombre:</label> <input type="text" id="Nombre">
+  </form>
+
+  <br>
+  <!-- Botones de Radio -->
+  <!-- <form>
+    <input type="radio">
+  </form> -->
+
+  <h2>Botones de selección (Radio)</h2>
+  <br>
+  <form action="/accion">
+    <div>
+      <label for="masculino">Masculino</label>
+      <input type="radio" name="genero" id="masculino" value="masculino">
+    </div>
+    <br>
+    <div>
+      <label for="femenino">Femenino</label>
+      <input type="radio" name="genero" id="femenino" value="femenino">
+    </div>
+    <br>
+    <div>
+      <label for="otro">Otro</label>
+      <input type="radio" name="genero" id="otro" value="otro">
+    </div>
+    <br>
+    <input type="submit" value="Enviar">
+  </form>
+
+
+  <!-- Áreas de texto -->
+  <br>
+  <h2>Áreas de texto</h2>
+  <br>
+    <form>
+      <textarea rows="5"></textarea>
+    </form>
+
+  <!-- Lista de selección -->
+  <form>
+    <select name="genero">
+      <option value="masculino">Masculino</option>
+      <br>
+      <option value="femenino">Femenino</option>
+    </select>
+  </form>
+
+
+  </div>
+
+  </div>
+  
+    </body>
+  </html>
